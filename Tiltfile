@@ -1,4 +1,4 @@
-SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='tanzu-application-platform/ci-pipeline/apps-28-02-2022-10-12-37-281015764-28-02-2022-10-12-37-281015764')
+SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='<SOURCE_IMAGE>')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='default')
 
