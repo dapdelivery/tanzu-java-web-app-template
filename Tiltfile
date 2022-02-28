@@ -1,4 +1,4 @@
-SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='index.docker.io/whitewolfie/tanzu-java-web-app-source')
+SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='tanzu-application-platform/ci-pipeline/apps-28-02-2022-10-12-37-281015764-28-02-2022-10-12-37-281015764')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='default')
 
