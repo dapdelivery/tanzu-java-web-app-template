@@ -10,6 +10,8 @@ spec:
   - name: annotations
     value:
       autoscaling.knative.dev/minScale: "1"
+  - name: live-update
+    value: "true"
   source:
     git:
       url: https://github.com/sample-accelerators/tanzu-java-web-app
