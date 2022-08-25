@@ -1,5 +1,5 @@
 ARG BUILDER_IMAGE=maven
-ARG RUNTIME_IMAGE=gcr.io/distroless/java17-debian11
+ARG RUNTIME_IMAGE=dev.registry.tanzu.vmware.com/tanzu-advanced-edition/java17-debian11 
 
 
 FROM $BUILDER_IMAGE AS build
