@@ -1,4 +1,4 @@
-ARG BUILDER_IMAGE=maven
+ARG BUILDER_IMAGE=dev.registry.tanzu.vmware.com/tanzu-advanced-edition/maven
 ARG RUNTIME_IMAGE=dev.registry.tanzu.vmware.com/tanzu-advanced-edition/java17-debian11 
 
 
